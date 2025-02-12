@@ -25,11 +25,11 @@
   <sup>4</sup> University of Crete &emsp; <sup>5</sup> IACM-Forth &emsp; <br>
 
 <p></p>
-<a href="https://diff-mining.github.io/"><img 
+<a href="https://eq-vae.github.io/"><img 
 src="https://img.shields.io/badge/-Webpage-blue.svg?colorA=333&logo=html5" height=25em></a>
-<a href="https://arxiv.org/abs/2307.05473"><img 
+<a href="?"><img 
 src="https://img.shields.io/badge/-Paper-blue.svg?colorA=333&logo=arxiv" height=25em></a>
-<a href="https://diff-mining.github.io/ref.bib"><img 
+<a href="?"><img 
 src="https://img.shields.io/badge/-BibTeX-blue.svg?colorA=333&logo=latex" height=25em></a>
 <p></p>
 
