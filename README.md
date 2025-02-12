@@ -42,7 +42,7 @@ src="https://img.shields.io/badge/-BibTeX-blue.svg?colorA=333&logo=latex" height
 
 <br>
 
-<b>TL;DR</b>: We propose EQ-VAE, a simple objective that regularizes the latent space of pretrained autoencoders by enforcing equivariance under scaling and rotation transformations. The resulting latent distribution is better for generative model training, resulting in speed-up training and better performance.
+<b>TL;DR</b>: We propose **EQ-VAE***, a simple objective that regularizes the latent space of pretrained autoencoders by enforcing equivariance under scaling and rotation transformations. The resulting latent distribution is better for generative model training, resulting in speed-up training and better performance.
 
 
 ### 0. HuggingFace checkpoint
