@@ -1,4 +1,4 @@
-            
+<!--             
 <style>
   .texttt {
     font-family: Consolas; /* Monospace font */
@@ -6,7 +6,7 @@
     color: teal; /* Add this line to set text color to blue */
     letter-spacing: 0; /* Adjust if needed */
   }
-</style>
+</style> -->
 
 <h1 align="center">
   <span style="color: teal; font-family: Consolas;">EQ-VAE</span>: Equivariance Regularized Latent Space for Improved Generative Image Modeling
