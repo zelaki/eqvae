@@ -63,7 +63,7 @@ conda activate eqvae
 
 
 ### 2. Download SD-VAE
-To download the $\texttt{SD-VAE}$ from the official LDM repository run:
+To download the SD-VAE from the official LDM repository run:
 
 
 ```bash
