@@ -36,17 +36,41 @@ data:
     train:
       target: ldm.data.dataset.DatasetTrain
       params:
-        train_dir: "/path/to/your/train_dir"
-        dataset_name: imagenet # Currently we support imagenet/openimages
+        train_dir: "/data/openimages/target_dir/train/"
+        dataset_name: openimages # Currently we support imagenet/openimages
         size: 256
         degradation: pil_nearest
     validation:
       target: ldm.data.dataset.DatasetVal
       params:
-        val_dir: "/path/to/your/val_dir"
-        dataset_name: imagenet # Currently we support imagenet/openimages
+        val_dir: "/data/openimages/target_dir/validation"
+        dataset_name: openimages # Currently we support imagenet/openimages
         size: 256
         degradation: pil_nearest
+
+
+
+
+# data:
+#   target: main.DataModuleFromConfig
+#   params:
+#     batch_size: 10
+#     wrap: True
+#     train:
+#       target: ldm.data.dataset.DatasetTrain
+#       params:
+#         train_dir: "/data/imagenet/train"
+#         dataset_name: imagenet # Currently we support imagenet/openimages
+#         size: 256
+#         degradation: pil_nearest
+#     validation:
+#       target: ldm.data.dataset.DatasetVal
+#       params:
+#         val_dir: "/data/imagenet/val"
+#         dataset_name: imagenet # Currently we support imagenet/openimages
+#         size: 256
+#         degradation: pil_nearest
+
 
 
 lightning:

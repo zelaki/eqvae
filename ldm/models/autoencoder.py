@@ -13,7 +13,6 @@ import random
 import json
 import os
 import copy
-from diffusers import AutoencoderKL as DiffusersAutoencoderKL
 
 
 

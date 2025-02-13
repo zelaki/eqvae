@@ -57,8 +57,13 @@ eqvae = AutoencoderKL("zelaki/eq-vae")
 
 ### 1. Environment setup
 ```bash
-conda env create -f env.yaml
+conda env create -f environment.yaml
 conda activate eqvae
+pip install packaging==21.3
+pip install 'torchmetrics<0.8'
+pip install transformers==4.10.2
+pip install torch==1.7.0+cu110 torchvision==0.8.1+cu110 torchaudio==0.7.0 -f https://download.pytorch.org/whl/torch_stable.html
+pip install Pillow==9.5.0
 ```
 
 
@@ -76,7 +81,7 @@ bash download_sdvae.sh
 
 #### Dataset download
 
-Currently, we provide experiments for [OpenImages](https://storage.googleapis.com/openimages/web/index.html) and  [ImageNet](https://www.kaggle.com/competitions/imagenet-object-localization-challenge/data). After downloading modify paths of train_dir, val_dir, dataset_name in the [cofig file](configs/eqvae_32x32x4.yaml)
+Currently, we provide experiments for [OpenImages](https://storage.googleapis.com/openimages/web/index.html). After downloading modify paths of train_dir, val_dir, dataset_name in the [cofig file](configs/eqvae_config.yaml)
 
 
 

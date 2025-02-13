@@ -25,9 +25,7 @@ class DatasetTrain(Dataset):
         
 
         
-        if dataset_name == "imagenet":
-            rel_paths = [os.path.relpath(p, train_dir) for p in glob.glob(train_dir + "**/*", recursive=True) if os.path.isfile(p)]
-        elif dataset_name == "openimages":
+        if dataset_name == "openimages":
             rel_paths = [l for l in os.listdir(train_dir)]
         else: 
             raise NotImplementedError
@@ -133,9 +131,7 @@ class DatasetVal(Dataset):
                  degradation=None, downscale_f=4, min_crop_f=0.5, max_crop_f=1.,
                  random_crop=True):
         
-        if dataset_name == "imagenet":
-            rel_paths = [os.path.relpath(p, val_dir) for p in glob.glob(val_dir + "**/*", recursive=True) if os.path.isfile(p)]
-        elif dataset_name == "openimages":
+        if dataset_name == "openimages":
             rel_paths = [l for l in os.listdir(val_dir)]
         else: 
             raise NotImplementedError
