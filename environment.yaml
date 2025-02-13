@@ -1,4 +1,4 @@
-name: ldm_fixed
+name: eqvae
 channels:
   - pytorch
   - defaults
