@@ -29,8 +29,6 @@
 src="https://img.shields.io/badge/-Webpage-blue.svg?colorA=333&logo=html5" height=25em></a>
 <a href="?"><img 
 src="https://img.shields.io/badge/-Paper-blue.svg?colorA=333&logo=arxiv" height=25em></a>
-<a href="?"><img 
-src="https://img.shields.io/badge/-BibTeX-blue.svg?colorA=333&logo=latex" height=25em></a>
 <p></p>
 
 ![teaser.png](media/teaser.png)
