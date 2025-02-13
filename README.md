@@ -48,7 +48,7 @@ If you just want to use EQ-VAE to speedup 🚀 the training on your diffusion mo
 
 ```python
 from diffusers import AutoencoderKL
-eqvae = AutoencoderKL("zelaki/eq-vae")
+eqvae = AutoencoderKL.from_pretrained("zelaki/eq-vae")
 ```
 
 
