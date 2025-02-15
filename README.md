@@ -60,7 +60,7 @@ conda activate DiT
 
 
 ### 2. Train EQ-VAE
-We provide a training script to finetune [SD-VAE](https://ommer-lab.com/files/latent-diffusion/kl-f8.zip) with EQ-VAE regularization. For detailed guide go to [train_eqvae](/home/ubuntu/eqvae/train_eqvae/).
+We provide a training script to finetune [SD-VAE](https://ommer-lab.com/files/latent-diffusion/kl-f8.zip) with EQ-VAE regularization. For detailed guide go to [train_eqvae](./train_eqvae/).
 
 
 ### 3. Evaluate Reconstruction 
