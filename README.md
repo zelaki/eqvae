@@ -63,7 +63,7 @@ eqvae = AutoencoderKL.from_pretrained("zelaki/eq-vae-ema")
 
 ```bash
 conda env create -f environment.yml
-conda activate DiT
+conda activate eqvae
 ```
 
 
