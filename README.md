@@ -40,15 +40,23 @@ src="https://img.shields.io/badge/-Paper-blue.svg?colorA=333&logo=arxiv" height=
 
 <br>
 
-<b>TL;DR</b>: We propose **EQ-VAE**, a simple objective that regularizes the latent space of pretrained autoencoders by enforcing equivariance under scaling and rotation transformations. The resulting latent distribution is better for generative model training, resulting in speed-up training and better performance.
+<b>TL;DR</b>: We propose **EQ-VAE**, a straightforward regularization objective that promotes equivariance in the latent space of pretrained autoencoders under scaling and rotation. This leads to a more structured latent distribution, which accelerates generative model training and improves performance.
 
 
 ### 0. Quick Start with Hugging Face
-If you just want to use EQ-VAE to speedup 🚀 the training on your diffusion model you can use our [HuggingFace](https://huggingface.co/zelaki/eq-vae) checkpoint 🤗.
+If you just want to use EQ-VAE to speedup 🚀 the training on your diffusion model you can use our HuggingFace checkpoints 🤗.
+We provide two models [eq-vae](https://huggingface.co/zelaki/eq-vae)
+and [eq-vae-ema](https://huggingface.co/zelaki/eq-vae-ema). 
+
+| Model   | Basemodel  | Dataset   | Epochs | rFID    | PSNR   | LPIPS  | SSIM   |
+|---------|-------------|-----------|--------|--------|--------|--------|--------|
+|  [eq-vae](https://huggingface.co/zelaki/eq-vae) | SD-VAE  | OpenImages | 5     | 0.82 | 25.95 | 0.141 | 0.72|
+| [eq-vae-ema](https://huggingface.co/zelaki/eq-vae-ema)  | SD-VAE  | Imagenet | 44    | 0.55  | 26.15  | 0.133 | 0.72 |
+
 
 ```python
 from diffusers import AutoencoderKL
-eqvae = AutoencoderKL.from_pretrained("zelaki/eq-vae")
+eqvae = AutoencoderKL.from_pretrained("zelaki/eq-vae-ema")
 ```
 
 ### 1. Environment setup
