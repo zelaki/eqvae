@@ -27,7 +27,7 @@
 <p></p>
 <a href="https://eq-vae.github.io/"><img 
 src="https://img.shields.io/badge/-Webpage-blue.svg?colorA=333&logo=html5" height=25em></a>
-<a href="?"><img 
+<a href="https://arxiv.org/abs/2502.09509"><img 
 src="https://img.shields.io/badge/-Paper-blue.svg?colorA=333&logo=arxiv" height=25em></a>
 <p></p>
 
