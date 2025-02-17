@@ -3,11 +3,15 @@ channels:
   - pytorch
   - nvidia
 dependencies:
-  - python >= 3.8
-  - pytorch >= 1.13
+  - python >=3.8
+  - pytorch >=1.13
   - torchvision
-  - pytorch-cuda=11.7
+  - pytorch-cuda=12.1
   - pip:
     - timm
     - diffusers
     - accelerate
+    - pytorch_lightning
+    - omegaconf
+    - einops
+    - -e git+https://github.com/CompVis/taming-transformers.git@3ba01b241669f5ade541ce990f7650a3b8f65318#egg=taming_transformers
