@@ -22,7 +22,8 @@ import math
 import argparse
 from evaluator import Evaluator
 import tensorflow.compat.v1 as tf
-from train_eqvae.ldm.models.autoencoder import LDMAutoencoderKL
+from train_eqvae.ldm.models.autoencoder import AutoencoderKL as LDMAutoencoderKL
+
 from ldm.util import instantiate_from_config
 import yaml
 from omegaconf import OmegaConf
