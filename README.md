@@ -56,7 +56,7 @@ and [eq-vae-ema](https://huggingface.co/zelaki/eq-vae-ema).
 
 ```python
 from diffusers import AutoencoderKL
-eqvae = AutoencoderKL.from_pretrained("zelaki/eq-vae-ema")
+eqvae = AutoencoderKL.from_pretrained("zelaki/eq-vae")
 ```
 
 ### 1. Environment setup
