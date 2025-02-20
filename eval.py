@@ -1,4 +1,4 @@
-# from taming.models.vqgan import VQModel, GumbelVQ
+# Code modified from https://github.com/hustvl/LightningDiT/blob/main/evaluate_tokenizer.py
 
 import os
 import torch
