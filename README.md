@@ -122,3 +122,17 @@ This script generates a folder of 50k samples as well as a .npz file and directl
 ### Acknowledgement
 
 This code is mainly built upon [LDM](https://github.com/CompVis/latent-diffusion) and [fastDiT](https://github.com/chuanyangjin/fast-DiT). 
+
+
+### Citation
+
+```bibtex
+@inproceedings{eqvae,
+  title = {EQ-VAE: Equivariance Regularized Latent Space for
+    Improved Generative Image Modeling},
+  author = {Kouzelis, Theodoros and Kakogeorgiou, Ioannis and Gidaris, Spyros and Komodakis, Nikos},
+  booktitle = {arxiv},
+  year = {2025},
+}
+```
+``
