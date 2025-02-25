@@ -59,6 +59,9 @@ from diffusers import AutoencoderKL
 eqvae = AutoencoderKL.from_pretrained("zelaki/eq-vae")
 ```
 
+If you are looking for the weights in the original LDM format you can find them here: [eq-vae-ldm](https://huggingface.co/zelaki/eq-vae-ldm), [eq-vae-ema-ldm](https://huggingface.co/zelaki/eq-vae-ema-ldm) 
+
+
 ### 1. Environment setup
 
 ```bash
