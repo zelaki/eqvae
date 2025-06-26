@@ -130,12 +130,13 @@ This code is mainly built upon [LDM](https://github.com/CompVis/latent-diffusion
 ### Citation
 
 ```bibtex
-@inproceedings{eqvae,
-  title = {EQ-VAE: Equivariance Regularized Latent Space for
-    Improved Generative Image Modeling},
-  author = {Kouzelis, Theodoros and Kakogeorgiou, Ioannis and Gidaris, Spyros and Komodakis, Nikos},
-  booktitle = {arxiv},
-  year = {2025},
+@inproceedings{
+  kouzelis2025eqvae,
+  title={{EQ}-{VAE}: Equivariance Regularized Latent Space for Improved Generative Image Modeling},
+  author={Theodoros Kouzelis and Ioannis Kakogeorgiou and Spyros Gidaris and Nikos Komodakis},
+  booktitle={Forty-second International Conference on Machine Learning},
+  year={2025},
+  url={https://openreview.net/forum?id=UWhW5YYLo6}
 }
 ```
 ``
